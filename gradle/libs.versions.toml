@@ -1,0 +1,77 @@
+[versions]
+
+buildkonfigGradlePlugin = "0.15.1"
+kotlin = "1.9.21"
+compose = "1.5.11"
+agp = "8.2.0"
+androidx-appcompat = "1.6.1"
+androidx-activityCompose = "1.8.1"
+compose-uitooling = "1.5.4"
+kotlinGradlePlugin = "1.9.0"
+voyager = "1.0.0"
+composeImageLoader = "1.7.1"
+buildConfig = "4.1.1"
+kotlinx-coroutines = "1.7.3"
+moko-mvvm = "0.16.1"
+ktor = "2.3.7"
+kotlinx-serialization = "1.6.2"
+kotlinx-datetime = "0.5.0"
+multiplatformSettings = "1.1.1"
+koin = "3.5.3"
+sqlDelight = "2.0.1"
+coil = "3.0.0-alpha03"
+core = "1.12.0"
+moko-version = "0.23.0"
+touhclab = "2.0.5"
+
+[libraries]
+
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+androidx-activityCompose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+buildkonfig-gradle-plugin = { module = "com.codingfeline.buildkonfig:buildkonfig-gradle-plugin", version.ref = "buildkonfigGradlePlugin" }
+compose-uitooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose-uitooling" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+voyager-navigator = { module = "cafe.adriel.voyager:voyager-navigator", version.ref = "voyager" }
+voyager-navigator-tab = { module = "cafe.adriel.voyager:voyager-tab-navigator", version.ref = "voyager" }
+voyager-navigator-vm = { module = "cafe.adriel.voyager:voyager-screenmodel", version.ref = "voyager" }
+voyager-navigator-koin = { module = "cafe.adriel.voyager:voyager-koin", version.ref = "voyager" }
+composeImageLoader = { module = "io.github.qdsfdhvh:image-loader", version.ref = "composeImageLoader" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
+kotlinx-coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
+moko-mvvm = { module = "dev.icerock.moko:mvvm-compose", version.ref = "moko-mvvm" }
+ktor-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+ktor-client-js = { module = "io.ktor:ktor-client-js", version.ref = "ktor" }
+ktor-client-curl = { module = "io.ktor:ktor-client-curl", version.ref = "ktor" }
+ktor-client-winhttp = { module = "io.ktor:ktor-client-winhttp", version.ref = "ktor" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
+multiplatformSettings = { module = "com.russhwolf:multiplatform-settings", version.ref = "multiplatformSettings" }
+multiplatformSettings_noarg = { module = "com.russhwolf:multiplatform-settings-no-arg", version.ref = "multiplatformSettings" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+sqlDelight-driver-sqlite = { module = "app.cash.sqldelight:sqlite-driver", version.ref = "sqlDelight" }
+sqlDelight-driver-android = { module = "app.cash.sqldelight:android-driver", version.ref = "sqlDelight" }
+sqlDelight-driver-native = { module = "app.cash.sqldelight:native-driver", version.ref = "sqlDelight" }
+sqlDelight-driver-js = { module = "app.cash.sqldelight:web-worker-driver", version.ref = "sqlDelight" }
+coil = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coil" }
+coil-network = { module = "io.coil-kt.coil3:coil-network-ktor", version.ref = "coil" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref= "ktor" }
+kotlin-serialization = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref="ktor" }
+androidx-core = { group = "androidx.core", name = "core", version.ref = "core" }
+moko-classpath =  {group = "dev.icerock.moko", name = "resources-generator", version.ref = "moko-version"}
+moko-resource = {group = "dev.icerock.moko", name = "resources", version.ref = "moko-version"}
+moko-resource-compose = {group = "dev.icerock.moko", name = "resources-compose", version.ref = "moko-version"}
+touchlab = { module = "co.touchlab:stately-common", version.ref = "touhclab"}
+
+[plugins]
+
+multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+compose = { id = "org.jetbrains.compose", version.ref = "compose" }
+android-application = { id = "com.android.application", version.ref = "agp" }
+buildConfig = { id = "com.github.gmazzo.buildconfig", version.ref = "buildConfig" }
+kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+sqlDelight = { id = "app.cash.sqldelight", version.ref = "sqlDelight" }
+buildkonfig = { id = "com.codingfeline.buildkonfig", version.ref = "buildkonfigGradlePlugin" }
+multiplatform-resources = { id = "dev.icerock.mobile.multiplatform-resources" }

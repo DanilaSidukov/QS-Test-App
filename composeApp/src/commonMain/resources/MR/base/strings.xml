@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="app_name">QS Test App</string>
+
+<!--    screen keys-->
+    <string name="home_key">Home</string>
+    <string name="search_key">Search</string>
+    <string name="profile_key">Profile</string>
+    <string name="bookmark_key">Bookmark</string>
+
+<!--    auth screen-->
+    <string name="input_your_email">Input your email</string>
+    <string name="incorrect_email">Incorrect email</string>
+    <string name="input_your_password">Input your password</string>
+    <string name="incorrect_password">Incorrect password</string>
+    <string name="login_greetings">Hello, Log In</string>
+    <string name="hint_email">email</string>
+    <string name="hint_password">password</string>
+    <string name="button_login">Log In</string>
+
+<!--    show screen-->
+    <string name="title">Title:</string>
+    <string name="release_date">Release date:</string>
+    <string name="runtime">Runtime:</string>
+    <string name="genres">Genres:</string>
+    <string name="description">Description:</string>
+
+<!--    home screen-->
+    <string name="popular_shows">Popular shows</string>
+
+<!--    profile screen-->
+    <string name="your_email">Your email:</string>
+
+<!--    search screen-->
+    <string name="search_hint">Input title of show</string>
+    <string name="search_description">Type something to find shows</string>
+    <string name="page">Page: </string>
+    <string name="movies">Movies</string>
+    <string name="series">Series</string>
+
+<!--    bookmark screen-->
+
+</resources>
